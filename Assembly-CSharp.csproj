@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2019_4_28;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2019_4_28;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;DREAMTECK_SPLINES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,7 +56,85 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Dreamteck\Splines\Components\BlankUser.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\EdgeColliderGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\LengthCalculator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\MeshGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\Node.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\ObjectBender.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\ObjectController.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\ParticleController.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\PathGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\PolygonColliderGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\Sample Modifiers\ColorModifier.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\Sample Modifiers\OffsetModifier.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\Sample Modifiers\RotationModifier.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\Sample Modifiers\SizeModifier.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\Sample Modifiers\SplineSampleModifier.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineComputer.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineFollower.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineMesh.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineMorph.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplinePositioner.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineProjector.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineRenderer.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineTracer.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SplineUser.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\SurfaceGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\TubeGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Components\WaveformGenerator.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\IO\CSV.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\IO\SVG.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\IO\SplineParser.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\ObjectSequence.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Capsule.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Ellipse.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Line.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Ngon.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Rectangle.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\RoundedRectangle.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Spiral.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\SplinePrimitive.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Primitives\Star.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\SampleCollection.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\Spline.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\SplinePoint.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\SplinePrefs.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\SplineSample.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\SplineThreading.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\SplineTrigger.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Core\TransformModule.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\AudioVisualization\SpectrumVisualizer.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Following\Scripts\CameraSmoothRotation.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Following\Scripts\URLButton.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Junctions\Scripts\JunctionSwitch.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Junctions\Scripts\TrainCamera.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Junctions\Scripts\TrainEngine.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Junctions\Scripts\Wagon.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\LengthEvents\SetMaterialColor.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Projection\Scripts\AddForceAlongPath.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Projection\Scripts\BallCamera.cs" />
+    <Compile Include="Assets\Dreamteck\Splines\Examples\Projection\Scripts\LapCounter.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\ArrayUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\DMath.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\DuplicateUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\ImageDB.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\LinearAlgebraUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\MeshUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\ResourceUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\SceneUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\ScriptableObjectUtility.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\TS_Bounds.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\TS_Mesh.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\TS_Transform.cs" />
+    <Compile Include="Assets\Dreamteck\Utilities\TransformUtility.cs" />
     <Compile Include="Assets\SimplestIK.cs" />
+    <Compile Include="Assets\SpiderLegs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Dreamteck\Splines\Examples\Projection\Instructions.txt" />
+    <None Include="Assets\Dreamteck\Splines\Examples\Following\Instructions.txt" />
+    <None Include="Assets\Dreamteck\Splines\Examples\Junctions\Instructions.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
